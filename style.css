@@ -1,0 +1,74 @@
+body{
+    background: linear-gradient(to bottom right, black, rgb(31, 31, 31), black);
+    height: 100vh;
+    color: gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-repeat:no-repeat;
+
+}
+
+#container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#box1{
+    display: flex;
+    transform: translate(100px, -170px);
+    height: 230px;
+    width: 230px;
+    background: linear-gradient(to bottom right, purple, rgb(233, 152, 166));
+    border-radius: 50%;
+}
+
+#box2{
+    height: 230px;
+    width: 230px;
+    transform: translate(-100px, 170px);
+    background: linear-gradient(to bottom right, rgb(233, 152, 166), purple);
+    border-radius: 50%;
+}
+
+#Login{
+    padding-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 25px;
+    height: 350px;
+    width: 350px;
+    background-color: rgba(212, 211, 211, 0.278);
+    padding-bottom: 10%;
+    z-index: 1;
+    border: 1px solid rgb(118, 118, 118);
+}
+
+#Login input{
+    height: 8%;
+    color: rgba(210, 220, 220, 0.599);
+    background-color: rgb(106, 106, 106, 0.599);
+    border-style:solid;
+    border-width: 1px;
+    border-radius: 2px;
+}
+
+#Login button{
+    font-family: Arial, Helvetica, sans-serif;
+    border-style: none;
+    background-color: rgb(255, 255, 255);
+    border-radius: 50px;
+    height: 10%;
+    width: 20%;
+    box-shadow: -1, -5, 10px, rgb(255, 0, 0);
+}
+
+#Login button:hover{
+    transition: ease-in-out;
+    transform: scale(1.3);
+    cursor: pointer;
+    animation-duration: 1s;
+}
